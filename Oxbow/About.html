@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About — Oxbow Outdoor Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/jpeg" href="oxbow logo.jpg">
+  </head>
+  <body class="page-loading">
+    <header class="site-header">
+      <div class="brand">
+        <a href="index.html" aria-label="Home"><img src="oxbow logo.jpg" alt="logo" onerror="this.style.display='none'"></a>
+        <div>
+          <div class="site-title">Oxbow Outdoor Solutions</div>
+          <div style="font-size:0.85rem;color:var(--muted);">South Georgia — Septic Pumping Division</div>
+        </div>
+      </div>
+      <nav>
+        <button id="mobile-toggle" class="mobile-toggle" aria-expanded="false">☰</button>
+        <div id="site-nav" class="nav" role="navigation">
+          <a href="Home.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Service.html">Services</a>
+          <a href="Contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h1>About Us</h1>
+    <p><em>information will be provided</em></p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>&copy; <span id="year"></span> Oxbow Outdoor Solutions</small>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    <script src="javascript.js" defer></script>
+  </body>
+</html>
